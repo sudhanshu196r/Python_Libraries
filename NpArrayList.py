@@ -1,9 +1,9 @@
 '''
-    @Author: Sudhanshu Kumar
-    @Date: 10-10-2024
-    @Last Modified by: Sudhanshu Kumar
-    @Last Modified time: 10-10-2024
-    @Title : Python program to convert a list of numbers to numpy array
+@Author: Sudhanshu Kumar
+@Date: 10 - 10 - 2024
+@Last Modified by: Sudhanshu Kumar
+@Last Modified time: 10 - 10 - 2024
+@Title: Python program to convert a list of numbers to numpy array
 
 '''
 
@@ -22,9 +22,8 @@ def convert(lst):
     return np_array
 
 def main():
-    lst = [23,45,90.4,39,1,4.5,3]
-    print(convert(lst))
+    lst = [23, 45, 90.4, 39, 1, 4.5, 3]
+print(convert(lst))
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
-
